@@ -5,4 +5,4 @@ you will need a trained model file to run this project not uploaded because of i
 
 Screenshots of the project
 
-<img src=''></img>
+<img src='Accident_detection_project/Accident detection 21-09-2022 11_51_37.png' width=500 height=500></img>
