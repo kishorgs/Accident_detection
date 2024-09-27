@@ -85,31 +85,30 @@ This project implements an Accident Detection System using a Convolutional Neura
 <img src="Accident_detection_project/img/COM_port_page.png" alt="Home page"/>
 
 - **Accident Detection Example**
-  ![Accident Detected](img/Accident.png)
+  
+<img src="Accident_detection_project/img/Accident.png" alt="Home page"/>
 
 - **No Accident Example**
-  ![No Accident Detected](img/NoAccident.png)
+
+<img src="Accident_detection_project/img/Accident.png" alt="Home page"/>
 
 ## Explanation of Components
 
 ### Arduino Uno
 
-![Accident Detected](img/Arduino_uno.jpg)
+<img src="Accident_detection_project/img/Arduino_uno.jpg" alt="Home page"/>
 
 The Arduino Uno serves as the brain of the project. It receives data from the GPS and GSM modules and handles the communication to send SMS alerts in the event of an accident.
 
 ### GPS Module
 
-![Accident Detected](img/GPS_module.jpg)
-
-![favicon](https://github.com/user-attachments/assets/3419c8bc-d86d-4559-afa0-c496c86a86c4)
-
+<img src="Accident_detection_project/img/GPS_module.jpg" alt="Home page"/>
 
 The GPS module provides accurate location data (latitude and longitude) of the vehicle. In case of an accident, this information is critical for emergency responders and family members.
 
 ### GSM Module
 
-![Accident Detected](img/GSM_module.jpg)
+<img src="Accident_detection_project/img/GSM_module.jpg" alt="Home page"/>
 
 The GSM module allows the system to send SMS messages. Upon detecting an accident, the system composes an SMS containing the vehicle's location and sends it to pre-defined contacts.
 
