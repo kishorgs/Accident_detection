@@ -53,7 +53,7 @@ This project implements an Accident Detection System using a Convolutional Neura
 1. Clone this repository to your local machine.
    ```bash
    git clone https://github.com/kishorgs/Accident-detection.git
-   cd accident-detection-system
+   cd Accident-detection
    ```
 2. Place the accident detection videos in a folder named `vid` in the project directory.
 3. Download the pre-trained model weights (`tensorboardexp.pt`) and place it in the project directory.
