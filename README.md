@@ -108,7 +108,7 @@ The GPS module provides accurate location data (latitude and longitude) of the v
 
 ### GSM Module
 
-<img src="Accident_detection_project/img/Gsm.jpg" alt="Home page"/>
+<img src="Accident_detection_project/img/gsm.jpg" alt="Home page"/>
 
 The GSM module allows the system to send SMS messages. Upon detecting an accident, the system composes an SMS containing the vehicle's location and sends it to pre-defined contacts.
 
