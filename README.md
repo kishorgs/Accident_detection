@@ -1,22 +1,112 @@
-# Accident_detection
-This is a accident detection project using machine learning technology using python programing language.
+# Accident Detection System Using CNN and IoT
 
-you will need a trained model file to run this project not uploaded because of its huge memory
-and you will need a gps and gsm modue to send sms to Someone.
+## Project Overview
 
-Screenshots of the project
+This project implements an Accident Detection System using a Convolutional Neural Network (CNN) based on the VGG-19 architecture. The system analyzes video footage to determine whether an accident involving a vehicle has occurred. It features a user-friendly interface developed with Tkinter, allowing users to log in, enter a COM port for communication with hardware components, and start the accident detection process. Upon detecting an accident, the system sends an SMS notification with the accident location to the family members of the vehicle's occupants.
 
-Starting page of the project <br>
-<img src='Accident_detection_project/Accident detection 21-09-2022 11_51_37.png' width=800 height=500></img>
+### Features
 
-Login to start the project <br> 
-<img src='Accident_detection_project/Accident detection login 20-09-2022 16_54_57.png' width=800 height=500></img>
+- **Accident Detection**: Utilizes CNN to analyze video footage for accident detection.
+- **User Authentication**: A simple login interface for user verification.
+- **COM Port Configuration**: Input for specifying the communication port for hardware integration.
+- **SMS Notification**: Sends SMS notifications with GPS coordinates in case of an accident.
+- **Real-time Video Processing**: Processes video frames in real-time to detect accidents.
 
-Enter COM port number <br>
-<img src='Accident_detection_project/Accident detection 21-09-2022 11_51_59.png' width=800 height=500></img>
+## Components Used
 
-Screenshot of the screen not happening accident <br>
-<img src='Accident_detection_project/Frame 19-09-2022 18_27_26.png' width=800 height=500></img>
+### 1. **Hardware Components**
 
-Screenshot of the video during accident <br>
-<img src='Accident_detection_project/Frame 19-09-2022 18_28_18.png' width=800 height=500></img>
+- **Arduino Uno**: A microcontroller board that processes input from GPS and GSM modules, and sends SMS alerts.
+- **GSM Module (SIM800)**: A GSM modem used to send SMS notifications about the accident.
+- **GPS Module**: Provides real-time location data that is sent to the family in case of an accident.
+
+### 2. **Software Components**
+
+- **Python**: The main programming language used for developing the accident detection algorithm and the Tkinter interface.
+- **OpenCV**: A computer vision library used for video processing and accident detection.
+- **PyTorch**: A machine learning library used to implement the CNN model.
+- **Tkinter**: A GUI toolkit in Python for creating the user interface.
+
+### 3. **Circuit Diagram**
+
+![Circuit Diagram](img/Circuit diagram.png)
+
+## Project Setup
+
+### Prerequisites
+
+1. Python 3.x installed on your machine.
+2. Required Python libraries:
+   ```bash
+   pip install opencv-python torch torchvision
+   ```
+3. Arduino IDE for uploading code to the Arduino board.
+
+### Hardware Setup
+
+1. Connect the **GPS Module** to the Arduino Uno (pins as specified in the code).
+2. Connect the **GSM Module** to the Arduino Uno (pins as specified in the code).
+3. Upload the IoT code provided in the Arduino section to your Arduino Uno.
+
+### Software Configuration
+
+1. Clone this repository to your local machine.
+   ```bash
+   git clone https://github.com/kishorgs/Accident-detection.git
+   cd accident-detection-system
+   ```
+2. Place the accident detection videos in a folder named `vid` in the project directory.
+3. Download the pre-trained model weights (`tensorboardexp.pt`) and place it in the project directory.
+
+### Running the Application
+
+1. Start the application by running the Python script:
+   ```bash
+   python accident_detection.py
+   ```
+2. Login with the credentials:
+   - **Username**: (Setup in the code)
+   - **Password**: (Setup in the code)
+3. Enter the COM port number for communication with the Arduino.
+4. Click "Run" to start the accident detection process.
+
+## Screenshots
+
+- **Home Page**
+  ![Home Page](img/landing_page.png)
+
+- **Login Page**
+  ![Login Page](img/login_page.png)
+
+- **COM Port Entry Page**
+  ![COM Port Entry](img/COM_port_page.png)
+
+- **Accident Detection Example**
+  ![Accident Detected](img/Accident.png)
+
+- **No Accident Example**
+  ![No Accident Detected](img/NoAccident.png)
+
+## Explanation of Components
+
+### Arduino Uno
+
+![Accident Detected](img/Arduino_uno.jpg)
+
+The Arduino Uno serves as the brain of the project. It receives data from the GPS and GSM modules and handles the communication to send SMS alerts in the event of an accident.
+
+### GPS Module
+
+![Accident Detected](img/GPS_module.jpg)
+
+The GPS module provides accurate location data (latitude and longitude) of the vehicle. In case of an accident, this information is critical for emergency responders and family members.
+
+### GSM Module
+
+![Accident Detected](img/GSM_module.jpg)
+
+The GSM module allows the system to send SMS messages. Upon detecting an accident, the system composes an SMS containing the vehicle's location and sends it to pre-defined contacts.
+
+## Conclusion
+
+This Accident Detection System integrates machine learning and IoT components to enhance vehicle safety. By detecting accidents in real time and notifying family members, it aims to provide immediate assistance, potentially saving lives.
