@@ -29,7 +29,7 @@ This project implements an Accident Detection System using a Convolutional Neura
 
 ### 3. **Circuit Diagram**
 
-![Circuit Diagram](img/Circuit diagram.png)
+<img src="Accident_detection_project/img/Circuit diagram.png" alt="Circuit diagram"/>
 
 ## Project Setup
 
@@ -78,19 +78,19 @@ This project implements an Accident Detection System using a Convolutional Neura
 
 - **Login Page**
   
-<img src="Accident_detection_project/img/login_page.png" alt="Home page"/>
+<img src="Accident_detection_project/img/Login_page.png" alt="Login page"/>
 
 - **COM Port Entry Page**
 
-<img src="Accident_detection_project/img/COM_port_page.png" alt="Home page"/>
+<img src="Accident_detection_project/img/COM_port_page.png" alt="COM Port page"/>
 
 - **Accident Detection Example**
   
-<img src="Accident_detection_project/img/Accident.png" alt="Home page"/>
+<img src="Accident_detection_project/img/Accident.png" alt="Accident frame"/>
 
 - **No Accident Example**
 
-<img src="Accident_detection_project/img/Accident.png" alt="Home page"/>
+<img src="Accident_detection_project/img/No_Accident.png" alt="No Accident frame"/>
 
 ## Explanation of Components
 
