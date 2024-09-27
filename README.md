@@ -73,7 +73,7 @@ This project implements an Accident Detection System using a Convolutional Neura
 ## Screenshots
 
 - **Home Page**
-  ![Home Page](img/landing_page.png)
+  <img src="img/landing_page.png" alt="Home page"/>
 
 - **Login Page**
   ![Login Page](img/login_page.png)
