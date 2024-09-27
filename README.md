@@ -112,6 +112,12 @@ The GPS module provides accurate location data (latitude and longitude) of the v
 
 The GSM module allows the system to send SMS messages. Upon detecting an accident, the system composes an SMS containing the vehicle's location and sends it to pre-defined contacts.
 
+## Project Hardware Setup
+
+<img src="Accident_detection_project/img/Accident_detection.jpg" alt="Home page"/>
+
+This Accident Detection System integrates machine learning and IoT components to enhance vehicle safety. By detecting accidents in real time and notifying family members, it aims to provide immediate assistance, potentially saving lives.
+
 ## Conclusion
 
 This Accident Detection System integrates machine learning and IoT components to enhance vehicle safety. By detecting accidents in real time and notifying family members, it aims to provide immediate assistance, potentially saving lives.
