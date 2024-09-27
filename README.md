@@ -73,13 +73,16 @@ This project implements an Accident Detection System using a Convolutional Neura
 ## Screenshots
 
 - **Home Page**
-  <img src="Accident_detection_project/img/landing_page.png" alt="Home page"/>
+  
+<img src="Accident_detection_project/img/landing_page.png" alt="Home page"/>
 
 - **Login Page**
-  ![Login Page](img/login_page.png)
+  
+<img src="Accident_detection_project/img/login_page.png" alt="Home page"/>
 
 - **COM Port Entry Page**
-  ![COM Port Entry](img/COM_port_page.png)
+
+<img src="Accident_detection_project/img/COM_port_page.png" alt="Home page"/>
 
 - **Accident Detection Example**
   ![Accident Detected](img/Accident.png)
@@ -98,6 +101,9 @@ The Arduino Uno serves as the brain of the project. It receives data from the GP
 ### GPS Module
 
 ![Accident Detected](img/GPS_module.jpg)
+
+![favicon](https://github.com/user-attachments/assets/3419c8bc-d86d-4559-afa0-c496c86a86c4)
+
 
 The GPS module provides accurate location data (latitude and longitude) of the vehicle. In case of an accident, this information is critical for emergency responders and family members.
 
