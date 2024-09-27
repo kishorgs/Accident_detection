@@ -102,13 +102,13 @@ The Arduino Uno serves as the brain of the project. It receives data from the GP
 
 ### GPS Module
 
-<img src="Accident_detection_project/img/gps.jpeg" alt="Home page"/>
+<img src="Accident_detection_project/img/gps.jpg" alt="Home page"/>
 
 The GPS module provides accurate location data (latitude and longitude) of the vehicle. In case of an accident, this information is critical for emergency responders and family members.
 
 ### GSM Module
 
-<img src="Accident_detection_project/img/Gsm.jpeg" alt="Home page"/>
+<img src="Accident_detection_project/img/Gsm.jpg" alt="Home page"/>
 
 The GSM module allows the system to send SMS messages. Upon detecting an accident, the system composes an SMS containing the vehicle's location and sends it to pre-defined contacts.
 
